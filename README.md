@@ -123,3 +123,28 @@ UniTool/
 │   └── vite.config.js
 │
 └── README.md
+
+-----------
+
+## How to Run the Project
+
+### 1. Start MongoDB
+
+Make sure MongoDB is running on your computer.
+
+If you are using local MongoDB, the database URL is:
+
+```text
+mongodb://127.0.0.1:27017/unitool
+
+-------
+cd backend
+npm install
+npm run dev
+
+http://localhost:5000
+ response: UniTool API Running
+
+cd frontend
+npm run dev
+ ---------
